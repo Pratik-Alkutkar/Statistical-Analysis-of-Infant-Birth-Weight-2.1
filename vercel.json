@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/predict.py": {
+      "memory": 256,
+      "maxDuration": 10
+    }
+  }
+}

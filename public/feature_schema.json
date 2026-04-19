@@ -1,0 +1,430 @@
+[
+  {
+    "key": "mother_age",
+    "label": "Mother's age (years)",
+    "type": "number",
+    "min": 12,
+    "max": 55,
+    "default": 28,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "father_age",
+    "label": "Father's age (years)",
+    "type": "number",
+    "min": 14,
+    "max": 70,
+    "default": 30,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "weeks",
+    "label": "Weeks of gestation",
+    "type": "number",
+    "min": 20,
+    "max": 45,
+    "default": 39,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "weight_gained",
+    "label": "Weight gained during pregnancy (lbs)",
+    "type": "number",
+    "min": 0,
+    "max": 80,
+    "default": 30,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "visits",
+    "label": "Prenatal visits",
+    "type": "number",
+    "min": 0,
+    "max": 30,
+    "default": 11,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "totalp",
+    "label": "Total pregnancies (including this one)",
+    "type": "number",
+    "min": 1,
+    "max": 15,
+    "default": 2,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "terms",
+    "label": "Prior terminations",
+    "type": "number",
+    "min": 0,
+    "max": 10,
+    "default": 0,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "child_loss",
+    "label": "Prior child loss",
+    "type": "boolean",
+    "default": 0,
+    "section": "Pregnancy basics"
+  },
+  {
+    "key": "baby_male",
+    "label": "Baby's sex",
+    "type": "select",
+    "options": [
+      {
+        "value": 1,
+        "label": "Male"
+      },
+      {
+        "value": 0,
+        "label": "Female"
+      }
+    ],
+    "default": 1,
+    "section": "Demographics"
+  },
+  {
+    "key": "mother_married",
+    "label": "Mother married",
+    "type": "boolean",
+    "default": 1,
+    "section": "Demographics"
+  },
+  {
+    "key": "mother_education",
+    "label": "Mother's years of education",
+    "type": "number",
+    "min": 0,
+    "max": 20,
+    "default": 14,
+    "section": "Demographics"
+  },
+  {
+    "key": "father_education",
+    "label": "Father's years of education",
+    "type": "number",
+    "min": 0,
+    "max": 20,
+    "default": 14,
+    "section": "Demographics"
+  },
+  {
+    "key": "racemom",
+    "label": "Mother's race",
+    "type": "race",
+    "default": "White",
+    "section": "Demographics",
+    "options": [
+      {
+        "value": "Other_Asian",
+        "label": "Other Asian (reference)"
+      },
+      {
+        "value": "White",
+        "label": "White"
+      },
+      {
+        "value": "Black",
+        "label": "Black"
+      },
+      {
+        "value": "American_Indian",
+        "label": "American Indian"
+      },
+      {
+        "value": "Chinese",
+        "label": "Chinese"
+      },
+      {
+        "value": "Japanese",
+        "label": "Japanese"
+      },
+      {
+        "value": "Hawaiian",
+        "label": "Hawaiian"
+      },
+      {
+        "value": "Filipino",
+        "label": "Filipino"
+      },
+      {
+        "value": "Other_Non_White",
+        "label": "Other Non-White"
+      },
+      {
+        "value": "Unknown",
+        "label": "Unknown"
+      }
+    ]
+  },
+  {
+    "key": "racedad",
+    "label": "Father's race",
+    "type": "race",
+    "default": "White",
+    "section": "Demographics",
+    "options": [
+      {
+        "value": "Other_Asian",
+        "label": "Other Asian (reference)"
+      },
+      {
+        "value": "White",
+        "label": "White"
+      },
+      {
+        "value": "Black",
+        "label": "Black"
+      },
+      {
+        "value": "American_Indian",
+        "label": "American Indian"
+      },
+      {
+        "value": "Chinese",
+        "label": "Chinese"
+      },
+      {
+        "value": "Japanese",
+        "label": "Japanese"
+      },
+      {
+        "value": "Hawaiian",
+        "label": "Hawaiian"
+      },
+      {
+        "value": "Filipino",
+        "label": "Filipino"
+      },
+      {
+        "value": "Other_Non_White",
+        "label": "Other Non-White"
+      },
+      {
+        "value": "Unknown",
+        "label": "Unknown"
+      }
+    ]
+  },
+  {
+    "key": "hispmom",
+    "label": "Mother Hispanic origin",
+    "type": "hispanic",
+    "default": "Not_Hispanic",
+    "section": "Demographics",
+    "options": [
+      {
+        "value": "Not_Hispanic",
+        "label": "Not Hispanic (reference)"
+      },
+      {
+        "value": "Cuban",
+        "label": "Cuban"
+      },
+      {
+        "value": "Mexican",
+        "label": "Mexican"
+      },
+      {
+        "value": "Colombian",
+        "label": "Colombian"
+      },
+      {
+        "value": "Peruvian",
+        "label": "Peruvian"
+      },
+      {
+        "value": "Salvadoran",
+        "label": "Salvadoran"
+      },
+      {
+        "value": "Guatemalan",
+        "label": "Guatemalan"
+      }
+    ]
+  },
+  {
+    "key": "hispdad",
+    "label": "Father Hispanic origin",
+    "type": "hispanic",
+    "default": "Not_Hispanic",
+    "section": "Demographics",
+    "options": [
+      {
+        "value": "Not_Hispanic",
+        "label": "Not Hispanic (reference)"
+      },
+      {
+        "value": "Cuban",
+        "label": "Cuban"
+      },
+      {
+        "value": "Mexican",
+        "label": "Mexican"
+      },
+      {
+        "value": "Colombian",
+        "label": "Colombian"
+      },
+      {
+        "value": "Peruvian",
+        "label": "Peruvian"
+      },
+      {
+        "value": "Salvadoran",
+        "label": "Salvadoran"
+      },
+      {
+        "value": "Guatemalan",
+        "label": "Guatemalan"
+      }
+    ]
+  },
+  {
+    "key": "cignum",
+    "label": "Average cigarettes per day",
+    "type": "number",
+    "min": 0,
+    "max": 80,
+    "default": 0,
+    "section": "Lifestyle"
+  },
+  {
+    "key": "drinknum",
+    "label": "Average alcoholic drinks per day",
+    "type": "number",
+    "min": 0,
+    "max": 20,
+    "default": 0,
+    "section": "Lifestyle"
+  },
+  {
+    "key": "loutcome_stillbirth",
+    "label": "Last pregnancy was stillbirth",
+    "type": "boolean",
+    "default": 0,
+    "section": "Prior outcomes"
+  },
+  {
+    "key": "loutcome_unknown",
+    "label": "Last pregnancy outcome unknown",
+    "type": "boolean",
+    "default": 0,
+    "section": "Prior outcomes"
+  },
+  {
+    "key": "anemia",
+    "label": "Anemia",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "cardiac",
+    "label": "Cardiac disease",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "aclung",
+    "label": "Acute/chronic lung disease",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "diabetes",
+    "label": "Diabetes",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "herpes",
+    "label": "Genital herpes",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "hydram",
+    "label": "Hydramnios/oligohydramnios",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "hemoglob",
+    "label": "Hemoglobinopathy",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "hyperch",
+    "label": "Chronic hypertension",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "hyperpr",
+    "label": "Pregnancy-induced hypertension",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "eclamp",
+    "label": "Eclampsia",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "cervix",
+    "label": "Incompetent cervix",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "pinfant",
+    "label": "Previous infant 4000g+",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "preterm",
+    "label": "Previous preterm/small infant",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "renal",
+    "label": "Renal disease",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "rhsen",
+    "label": "Rh sensitization",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  },
+  {
+    "key": "uterine",
+    "label": "Uterine bleeding",
+    "type": "boolean",
+    "default": 0,
+    "section": "Medical conditions"
+  }
+]

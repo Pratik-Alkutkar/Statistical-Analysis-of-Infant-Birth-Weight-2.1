@@ -1,0 +1,1127 @@
+{
+  "intercept": 38.23252928230215,
+  "features": [
+    {
+      "name": "baby_male",
+      "coef": -0.31117963031667634,
+      "std_error": 0.03450049135249519,
+      "p_value": 0.0
+    },
+    {
+      "name": "mother_married",
+      "coef": -0.11455256610573375,
+      "std_error": 0.04410241515310231,
+      "p_value": 0.009392655702313846
+    },
+    {
+      "name": "father_age",
+      "coef": -0.0019272753978891346,
+      "std_error": 0.004030795518691666,
+      "p_value": 0.6325521832070962
+    },
+    {
+      "name": "mother_age",
+      "coef": -0.004143757070036884,
+      "std_error": 0.004960382545975287,
+      "p_value": 0.4035091543258056
+    },
+    {
+      "name": "father_education",
+      "coef": -0.017437563643874672,
+      "std_error": 0.00947215419415598,
+      "p_value": 0.06563195941299615
+    },
+    {
+      "name": "mother_education",
+      "coef": 0.01950067967195509,
+      "std_error": 0.009973047672327814,
+      "p_value": 0.0505431819180997
+    },
+    {
+      "name": "weight_gained",
+      "coef": -0.012441621793343577,
+      "std_error": 0.001294680420314288,
+      "p_value": 0.0
+    },
+    {
+      "name": "visits",
+      "coef": 0.005904905239020647,
+      "std_error": 0.004585427079688717,
+      "p_value": 0.19783136839288096
+    },
+    {
+      "name": "totalp",
+      "coef": 0.01920281405810859,
+      "std_error": 0.02535957536861994,
+      "p_value": 0.4489172102690928
+    },
+    {
+      "name": "terms",
+      "coef": 0.09335143538573099,
+      "std_error": 0.04042730760870221,
+      "p_value": 0.020937018131435225
+    },
+    {
+      "name": "weeks",
+      "coef": -0.618245045865398,
+      "std_error": 0.00826620540856404,
+      "p_value": 0.0
+    },
+    {
+      "name": "cignum",
+      "coef": 0.05537525486322265,
+      "std_error": 0.004588067909723283,
+      "p_value": 0.0
+    },
+    {
+      "name": "drinknum",
+      "coef": -0.2438956298339565,
+      "std_error": 0.19744995638610896,
+      "p_value": 0.21674582123595587
+    },
+    {
+      "name": "child_loss",
+      "coef": 0.016115626226385644,
+      "std_error": 0.14720368483831167,
+      "p_value": 0.9128230404967752
+    },
+    {
+      "name": "loutcome_stillbirth",
+      "coef": 0.013918935019943625,
+      "std_error": 0.06773640804867893,
+      "p_value": 0.8371918414281996
+    },
+    {
+      "name": "loutcome_unknown",
+      "coef": 0.36894517101438384,
+      "std_error": 0.055284521316034854,
+      "p_value": 2.496536311014097e-11
+    },
+    {
+      "name": "anemia",
+      "coef": 0.09545122548955749,
+      "std_error": 0.0861449628527991,
+      "p_value": 0.26784874812785064
+    },
+    {
+      "name": "cardiac",
+      "coef": 0.012622866209069427,
+      "std_error": 0.24618918529838485,
+      "p_value": 0.959107956422157
+    },
+    {
+      "name": "aclung",
+      "coef": 0.33298973260010495,
+      "std_error": 0.1431797592875228,
+      "p_value": 0.02003584074411413
+    },
+    {
+      "name": "diabetes",
+      "coef": -0.22205650444799388,
+      "std_error": 0.09023903591691795,
+      "p_value": 0.01386435273267228
+    },
+    {
+      "name": "herpes",
+      "coef": -0.2282189243126358,
+      "std_error": 0.16354100275677147,
+      "p_value": 0.16286980438022658
+    },
+    {
+      "name": "hydram",
+      "coef": 0.8775585025473382,
+      "std_error": 0.09895952322201665,
+      "p_value": 0.0
+    },
+    {
+      "name": "hemoglob",
+      "coef": 0.5007677144741376,
+      "std_error": 0.2945321356593438,
+      "p_value": 0.08909064537491851
+    },
+    {
+      "name": "hyperch",
+      "coef": 0.5214866463543838,
+      "std_error": 0.11371434397705577,
+      "p_value": 4.5195813527243445e-06
+    },
+    {
+      "name": "hyperpr",
+      "coef": 0.668954013585135,
+      "std_error": 0.058446790706845046,
+      "p_value": 0.0
+    },
+    {
+      "name": "eclamp",
+      "coef": 1.1694270487042955,
+      "std_error": 0.16717265215108557,
+      "p_value": 2.646327601496523e-12
+    },
+    {
+      "name": "cervix",
+      "coef": 0.7432449832473506,
+      "std_error": 0.19432001067004118,
+      "p_value": 0.00013085148385538758
+    },
+    {
+      "name": "pinfant",
+      "coef": -1.3228977798114359,
+      "std_error": 0.477992877567086,
+      "p_value": 0.005646901734255749
+    },
+    {
+      "name": "preterm",
+      "coef": 0.7771534451785841,
+      "std_error": 0.120363721784185,
+      "p_value": 1.0700484942560706e-10
+    },
+    {
+      "name": "renal",
+      "coef": 0.7665755859959398,
+      "std_error": 0.26442740950706,
+      "p_value": 0.0037435251998179098
+    },
+    {
+      "name": "rhsen",
+      "coef": -0.6955553568666338,
+      "std_error": 0.36021812820914434,
+      "p_value": 0.05349192710726536
+    },
+    {
+      "name": "uterine",
+      "coef": 0.8024011446549499,
+      "std_error": 0.22466720760361705,
+      "p_value": 0.0003549291985636138
+    },
+    {
+      "name": "racemomUnknown",
+      "coef": -18.929672414314233,
+      "std_error": 31627.21392341845,
+      "p_value": 0.999522446318059
+    },
+    {
+      "name": "racedadUnknown",
+      "coef": 1.195604274390255,
+      "std_error": 1.1266814065343123,
+      "p_value": 0.2886111315777278
+    },
+    {
+      "name": "racemomOther_Non_White",
+      "coef": -18.74125255279922,
+      "std_error": 31627.213920747137,
+      "p_value": 0.9995271997329784
+    },
+    {
+      "name": "racedadOther_Non_White",
+      "coef": 1.0779863771861362,
+      "std_error": 1.0510846471619104,
+      "p_value": 0.3050828758731514
+    },
+    {
+      "name": "racemomWhite",
+      "coef": -18.385147617667304,
+      "std_error": 31627.21392079246,
+      "p_value": 0.9995361834702612
+    },
+    {
+      "name": "racedadWhite",
+      "coef": 1.1088222634343516,
+      "std_error": 1.0520358337253166,
+      "p_value": 0.2918931464904948
+    },
+    {
+      "name": "racemomBlack",
+      "coef": -18.795736238416172,
+      "std_error": 31627.213921149792,
+      "p_value": 0.9995258252305061
+    },
+    {
+      "name": "racedadBlack",
+      "coef": 1.0508331479370283,
+      "std_error": 1.0668931428465642,
+      "p_value": 0.32465012938490356
+    },
+    {
+      "name": "racemomAmerican_Indian",
+      "coef": -18.391339771436805,
+      "std_error": 31627.21392800299,
+      "p_value": 0.9995360272560678
+    },
+    {
+      "name": "racedadAmerican_Indian",
+      "coef": 1.6778594059092873,
+      "std_error": 1.2966422306656369,
+      "p_value": 0.19566425949484234
+    },
+    {
+      "name": "racemomChinese",
+      "coef": -17.421873859066157,
+      "std_error": 31627.213926319066,
+      "p_value": 0.9995604847299608
+    },
+    {
+      "name": "racedadChinese",
+      "coef": -17.540660597287403,
+      "std_error": 9832.996164949032,
+      "p_value": 0.9985766886695053
+    },
+    {
+      "name": "racemomJapanese",
+      "coef": -36.826886878306404,
+      "std_error": 32658.705068038693,
+      "p_value": 0.9991002828135922
+    },
+    {
+      "name": "racedadJapanese",
+      "coef": 1.8679549533580495,
+      "std_error": 1.4879149619741927,
+      "p_value": 0.2093271248092301
+    },
+    {
+      "name": "racemomHawaiian",
+      "coef": -19.128252970948587,
+      "std_error": 31627.21392592595,
+      "p_value": 0.999517436571367
+    },
+    {
+      "name": "racedadHawaiian",
+      "coef": 0.8500687743992473,
+      "std_error": 1.3166184672078205,
+      "p_value": 0.5185089703761538
+    },
+    {
+      "name": "racemomFilipino",
+      "coef": -18.596141048923016,
+      "std_error": 31627.21392100154,
+      "p_value": 0.9995308605742015
+    },
+    {
+      "name": "racedadFilipino",
+      "coef": 1.5698729383081647,
+      "std_error": 1.061702207722973,
+      "p_value": 0.13923716413213727
+    },
+    {
+      "name": "hispmomCuban",
+      "coef": 0.87190537927979,
+      "std_error": 0.3016939164838014,
+      "p_value": 0.0038520136841686536
+    },
+    {
+      "name": "hispdadCuban",
+      "coef": 0.5530622824683518,
+      "std_error": 0.3342393465597955,
+      "p_value": 0.09798753130700066
+    },
+    {
+      "name": "hispmomMexican",
+      "coef": -0.37103727892279603,
+      "std_error": 0.11503989456583105,
+      "p_value": 0.0012584413893821367
+    },
+    {
+      "name": "hispdadMexican",
+      "coef": 0.13268386622634792,
+      "std_error": 0.1087395046438616,
+      "p_value": 0.22238933643829584
+    },
+    {
+      "name": "hispmomColombian",
+      "coef": 0.0809094274081801,
+      "std_error": 0.4759147630419164,
+      "p_value": 0.8650036627614974
+    },
+    {
+      "name": "hispdadColombian",
+      "coef": 0.6637103897131695,
+      "std_error": 0.4487084186108402,
+      "p_value": 0.13909824500532775
+    },
+    {
+      "name": "hispmomPeruvian",
+      "coef": 0.04637996498990333,
+      "std_error": 0.18102992870187185,
+      "p_value": 0.7977959938138222
+    },
+    {
+      "name": "hispdadPeruvian",
+      "coef": 0.20842254764572243,
+      "std_error": 0.17618170134563207,
+      "p_value": 0.2368100585641253
+    },
+    {
+      "name": "hispmomSalvadoran",
+      "coef": -0.015803279004746772,
+      "std_error": 0.13658709716173034,
+      "p_value": 0.9078894250503038
+    },
+    {
+      "name": "hispdadSalvadoran",
+      "coef": -0.17490696850461973,
+      "std_error": 0.14231050932176878,
+      "p_value": 0.21905243559725518
+    },
+    {
+      "name": "hispmomGuatemalan",
+      "coef": -0.9652277719464033,
+      "std_error": 0.6189739036602201,
+      "p_value": 0.11890178729887912
+    },
+    {
+      "name": "hispdadGuatemalan",
+      "coef": 1.4191537464034127,
+      "std_error": 0.3859163152690929,
+      "p_value": 0.00023565908328526675
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.9546032780680636,
+    "base_rate": 0.04506029416402956,
+    "auc": 0.8500123834558674,
+    "precision": 0.4801980198019802,
+    "recall": 0.09052729818012133,
+    "f1": 0.15233608166470358,
+    "confusion_matrix": {
+      "tp": 388,
+      "tn": 90411,
+      "fp": 420,
+      "fn": 3898
+    },
+    "n_rows": 95117,
+    "n_features": 62
+  },
+  "coefficients_table": [
+    {
+      "name": "(Intercept)",
+      "pretty_name": "Intercept",
+      "coef": 38.23252928230215,
+      "std_error": 31627.21393604051,
+      "p_value": 0.9990354781971351,
+      "odds_ratio": 4.019541311071888e+16,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "baby_male",
+      "pretty_name": "Baby is Male",
+      "coef": -0.31117963031667634,
+      "std_error": 0.03450049135249519,
+      "p_value": 0.0,
+      "odds_ratio": 0.732582270064327,
+      "ci_lower": 0.6846821292123468,
+      "ci_upper": 0.7838334893156792
+    },
+    {
+      "name": "mother_married",
+      "pretty_name": "Mother is Married",
+      "coef": -0.11455256610573375,
+      "std_error": 0.04410241515310231,
+      "p_value": 0.009392655702313846,
+      "odds_ratio": 0.8917650605695795,
+      "ci_lower": 0.8179179117443369,
+      "ci_upper": 0.9722796283513129
+    },
+    {
+      "name": "father_age",
+      "pretty_name": "Father's Age",
+      "coef": -0.0019272753978891346,
+      "std_error": 0.004030795518691666,
+      "p_value": 0.6325521832070962,
+      "odds_ratio": 0.9980745806048062,
+      "ci_lower": 0.9902204987783512,
+      "ci_upper": 1.0059909582546793
+    },
+    {
+      "name": "mother_age",
+      "pretty_name": "Mother's Age",
+      "coef": -0.004143757070036884,
+      "std_error": 0.004960382545975287,
+      "p_value": 0.4035091543258056,
+      "odds_ratio": 0.9958648164450149,
+      "ci_lower": 0.9862295847987269,
+      "ci_upper": 1.0055941820437908
+    },
+    {
+      "name": "father_education",
+      "pretty_name": "Father's Education",
+      "coef": -0.017437563643874672,
+      "std_error": 0.00947215419415598,
+      "p_value": 0.06563195941299615,
+      "odds_ratio": 0.9827135908053822,
+      "ci_lower": 0.9646374132022923,
+      "ci_upper": 1.0011284948483412
+    },
+    {
+      "name": "mother_education",
+      "pretty_name": "Mother's Education",
+      "coef": 0.01950067967195509,
+      "std_error": 0.009973047672327814,
+      "p_value": 0.0505431819180997,
+      "odds_ratio": 1.019692059916519,
+      "ci_lower": 0.999953507315011,
+      "ci_upper": 1.0398202410917077
+    },
+    {
+      "name": "weight_gained",
+      "pretty_name": "Weight Gained During Pregnancy",
+      "coef": -0.012441621793343577,
+      "std_error": 0.001294680420314288,
+      "p_value": 0.0,
+      "odds_ratio": 0.9876354551976807,
+      "ci_lower": 0.9851324346592121,
+      "ci_upper": 0.9901448354006935
+    },
+    {
+      "name": "visits",
+      "pretty_name": "Prenatal Visits",
+      "coef": 0.005904905239020647,
+      "std_error": 0.004585427079688717,
+      "p_value": 0.19783136839288096,
+      "odds_ratio": 1.0059223735579585,
+      "ci_lower": 0.9969222142861498,
+      "ci_upper": 1.0150037857758418
+    },
+    {
+      "name": "totalp",
+      "pretty_name": "Total Pregnancies",
+      "coef": 0.01920281405810859,
+      "std_error": 0.02535957536861994,
+      "p_value": 0.4489172102690928,
+      "odds_ratio": 1.0193883739462066,
+      "ci_lower": 0.9699585370919092,
+      "ci_upper": 1.0713371934971956
+    },
+    {
+      "name": "terms",
+      "pretty_name": "Prior Terminations",
+      "coef": 0.09335143538573099,
+      "std_error": 0.04042730760870221,
+      "p_value": 0.020937018131435225,
+      "odds_ratio": 1.0978474899362909,
+      "ci_lower": 1.0142139839812323,
+      "ci_upper": 1.188377531956528
+    },
+    {
+      "name": "weeks",
+      "pretty_name": "Gestation Weeks",
+      "coef": -0.618245045865398,
+      "std_error": 0.00826620540856404,
+      "p_value": 0.0,
+      "odds_ratio": 0.5388893342922878,
+      "ci_lower": 0.5302287252437892,
+      "ci_upper": 0.5476914033287501
+    },
+    {
+      "name": "cignum",
+      "pretty_name": "Avg. Cigarettes per Day",
+      "coef": 0.05537525486322265,
+      "std_error": 0.004588067909723283,
+      "p_value": 0.0,
+      "odds_ratio": 1.0569371610776732,
+      "ci_lower": 1.047475142015899,
+      "ci_upper": 1.0664846521484088
+    },
+    {
+      "name": "drinknum",
+      "pretty_name": "Avg. Drinks per Day",
+      "coef": -0.2438956298339565,
+      "std_error": 0.19744995638610896,
+      "p_value": 0.21674582123595587,
+      "odds_ratio": 0.783569411264809,
+      "ci_lower": 0.5321139907047034,
+      "ci_upper": 1.1538524319887842
+    },
+    {
+      "name": "child_loss",
+      "pretty_name": "Prior Child Loss",
+      "coef": 0.016115626226385644,
+      "std_error": 0.14720368483831167,
+      "p_value": 0.9128230404967752,
+      "odds_ratio": 1.0162461833243002,
+      "ci_lower": 0.7615468417550662,
+      "ci_upper": 1.3561297197964992
+    },
+    {
+      "name": "loutcome_stillbirth",
+      "pretty_name": "Last Pregnancy Stillbirth",
+      "coef": 0.013918935019943625,
+      "std_error": 0.06773640804867893,
+      "p_value": 0.8371918414281996,
+      "odds_ratio": 1.014016254399143,
+      "ci_lower": 0.8879459324223067,
+      "ci_upper": 1.1579860064009417
+    },
+    {
+      "name": "loutcome_unknown",
+      "pretty_name": "Unknown Last Pregnancy Outcome",
+      "coef": 0.36894517101438384,
+      "std_error": 0.055284521316034854,
+      "p_value": 2.496536311014097e-11,
+      "odds_ratio": 1.446208307366409,
+      "ci_lower": 1.2976922689414192,
+      "ci_upper": 1.6117214522683032
+    },
+    {
+      "name": "anemia",
+      "pretty_name": "Anemia",
+      "coef": 0.09545122548955749,
+      "std_error": 0.0861449628527991,
+      "p_value": 0.26784874812785064,
+      "odds_ratio": 1.1001551611959073,
+      "ci_lower": 0.9292356600202172,
+      "ci_upper": 1.3025128401547348
+    },
+    {
+      "name": "cardiac",
+      "pretty_name": "Cardiac Disease",
+      "coef": 0.012622866209069427,
+      "std_error": 0.24618918529838485,
+      "p_value": 0.959107956422157,
+      "odds_ratio": 1.012702870859669,
+      "ci_lower": 0.6250598105303887,
+      "ci_upper": 1.6407503527977267
+    },
+    {
+      "name": "aclung",
+      "pretty_name": "Acute Lung Disease",
+      "coef": 0.33298973260010495,
+      "std_error": 0.1431797592875228,
+      "p_value": 0.02003584074411413,
+      "odds_ratio": 1.3951329740081153,
+      "ci_lower": 1.0537522909209889,
+      "ci_upper": 1.8471096404104241
+    },
+    {
+      "name": "diabetes",
+      "pretty_name": "Diabetes",
+      "coef": -0.22205650444799388,
+      "std_error": 0.09023903591691795,
+      "p_value": 0.01386435273267228,
+      "odds_ratio": 0.8008701103326459,
+      "ci_lower": 0.6710410175815492,
+      "ci_upper": 0.9558177768861621
+    },
+    {
+      "name": "herpes",
+      "pretty_name": "Genital Herpes",
+      "coef": -0.2282189243126358,
+      "std_error": 0.16354100275677147,
+      "p_value": 0.16286980438022658,
+      "odds_ratio": 0.7959499879559683,
+      "ci_lower": 0.5776660821946503,
+      "ci_upper": 1.0967172954316362
+    },
+    {
+      "name": "hydram",
+      "pretty_name": "Hydramnios",
+      "coef": 0.8775585025473382,
+      "std_error": 0.09895952322201665,
+      "p_value": 0.0,
+      "odds_ratio": 2.405020680658937,
+      "ci_lower": 1.9809922133298472,
+      "ci_upper": 2.9198118172684033
+    },
+    {
+      "name": "hemoglob",
+      "pretty_name": "Low Hemoglobin",
+      "coef": 0.5007677144741376,
+      "std_error": 0.2945321356593438,
+      "p_value": 0.08909064537491851,
+      "odds_ratio": 1.6499875038740393,
+      "ci_lower": 0.926338767674109,
+      "ci_upper": 2.938945079213459
+    },
+    {
+      "name": "hyperch",
+      "pretty_name": "Chronic Hypertension",
+      "coef": 0.5214866463543838,
+      "std_error": 0.11371434397705577,
+      "p_value": 4.5195813527243445e-06,
+      "odds_ratio": 1.684530089632996,
+      "ci_lower": 1.3479791326756514,
+      "ci_upper": 2.105107975407909
+    },
+    {
+      "name": "hyperpr",
+      "pretty_name": "Pregnancy-Induced Hypertension",
+      "coef": 0.668954013585135,
+      "std_error": 0.058446790706845046,
+      "p_value": 0.0,
+      "odds_ratio": 1.9521942836278816,
+      "ci_lower": 1.7408931807638803,
+      "ci_upper": 2.1891420812833187
+    },
+    {
+      "name": "eclamp",
+      "pretty_name": "Eclampsia",
+      "coef": 1.1694270487042955,
+      "std_error": 0.16717265215108557,
+      "p_value": 2.646327601496523e-12,
+      "odds_ratio": 3.2201471224174143,
+      "ci_lower": 2.320467445444405,
+      "ci_upper": 4.4686459662989435
+    },
+    {
+      "name": "cervix",
+      "pretty_name": "Cervical Incompetence",
+      "coef": 0.7432449832473506,
+      "std_error": 0.19432001067004118,
+      "p_value": 0.00013085148385538758,
+      "odds_ratio": 2.1027478370850026,
+      "ci_lower": 1.4367415863137012,
+      "ci_upper": 3.077483458740956
+    },
+    {
+      "name": "pinfant",
+      "pretty_name": "Previous Infant 4000g+",
+      "coef": -1.3228977798114359,
+      "std_error": 0.477992877567086,
+      "p_value": 0.005646901734255749,
+      "odds_ratio": 0.26636232318294784,
+      "ci_lower": 0.1043751331792651,
+      "ci_upper": 0.6797489502558227
+    },
+    {
+      "name": "preterm",
+      "pretty_name": "Preterm History",
+      "coef": 0.7771534451785841,
+      "std_error": 0.120363721784185,
+      "p_value": 1.0700484942560706e-10,
+      "odds_ratio": 2.175271414820817,
+      "ci_lower": 1.7181369763080088,
+      "ci_upper": 2.7540328817696627
+    },
+    {
+      "name": "renal",
+      "pretty_name": "Renal Disease",
+      "coef": 0.7665755859959398,
+      "std_error": 0.26442740950706,
+      "p_value": 0.0037435251998179098,
+      "odds_ratio": 2.1523829689070975,
+      "ci_lower": 1.2818416890106856,
+      "ci_upper": 3.614137755510862
+    },
+    {
+      "name": "rhsen",
+      "pretty_name": "Rh Sensitization",
+      "coef": -0.6955553568666338,
+      "std_error": 0.36021812820914434,
+      "p_value": 0.05349192710726536,
+      "odds_ratio": 0.49879736051182305,
+      "ci_lower": 0.24620693729365684,
+      "ci_upper": 1.0105271995517064
+    },
+    {
+      "name": "uterine",
+      "pretty_name": "Uterine Bleeding",
+      "coef": 0.8024011446549499,
+      "std_error": 0.22466720760361705,
+      "p_value": 0.0003549291985636138,
+      "odds_ratio": 2.2308911950086356,
+      "ci_lower": 1.4362756625281576,
+      "ci_upper": 3.4651255701197874
+    },
+    {
+      "name": "racemomUnknown",
+      "pretty_name": "Mother's Race: Unknown",
+      "coef": -18.929672414314233,
+      "std_error": 31627.21392341845,
+      "p_value": 0.999522446318059,
+      "odds_ratio": 6.0110138167511265e-09,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadUnknown",
+      "pretty_name": "Father's Race: Unknown",
+      "coef": 1.195604274390255,
+      "std_error": 1.1266814065343123,
+      "p_value": 0.2886111315777278,
+      "odds_ratio": 3.3055546291236144,
+      "ci_lower": 0.3632400812726026,
+      "ci_upper": 30.08118313331273
+    },
+    {
+      "name": "racemomOther_Non_White",
+      "pretty_name": "Mother's Race: Other Non White",
+      "coef": -18.74125255279922,
+      "std_error": 31627.213920747137,
+      "p_value": 0.9995271997329784,
+      "odds_ratio": 7.257339373203226e-09,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadOther_Non_White",
+      "pretty_name": "Father's Race: Other Non White",
+      "coef": 1.0779863771861362,
+      "std_error": 1.0510846471619104,
+      "p_value": 0.3050828758731514,
+      "odds_ratio": 2.938756042998963,
+      "ci_lower": 0.3745089674250948,
+      "ci_upper": 23.060294496126474
+    },
+    {
+      "name": "racemomWhite",
+      "pretty_name": "Mother's Race: White",
+      "coef": -18.385147617667304,
+      "std_error": 31627.21392079246,
+      "p_value": 0.9995361834702612,
+      "odds_ratio": 1.0361719720876692e-08,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadWhite",
+      "pretty_name": "Father's Race: White",
+      "coef": 1.1088222634343516,
+      "std_error": 1.0520358337253166,
+      "p_value": 0.2918931464904948,
+      "odds_ratio": 3.030786823199121,
+      "ci_lower": 0.38551777786248975,
+      "ci_upper": 23.826835739216808
+    },
+    {
+      "name": "racemomBlack",
+      "pretty_name": "Mother's Race: Black",
+      "coef": -18.795736238416172,
+      "std_error": 31627.213921149792,
+      "p_value": 0.9995258252305061,
+      "odds_ratio": 6.872511390992464e-09,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadBlack",
+      "pretty_name": "Father's Race: Black",
+      "coef": 1.0508331479370283,
+      "std_error": 1.0668931428465642,
+      "p_value": 0.32465012938490356,
+      "odds_ratio": 2.860032956270943,
+      "ci_lower": 0.353356642972846,
+      "ci_upper": 23.148817699132636
+    },
+    {
+      "name": "racemomAmerican_Indian",
+      "pretty_name": "Mother's Race: American Indian",
+      "coef": -18.391339771436805,
+      "std_error": 31627.21392800299,
+      "p_value": 0.9995360272560678,
+      "odds_ratio": 1.0297756598171043e-08,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadAmerican_Indian",
+      "pretty_name": "Father's Race: American Indian",
+      "coef": 1.6778594059092873,
+      "std_error": 1.2966422306656369,
+      "p_value": 0.19566425949484234,
+      "odds_ratio": 5.354082777822676,
+      "ci_lower": 0.4216585708680455,
+      "ci_upper": 67.98439394404772
+    },
+    {
+      "name": "racemomChinese",
+      "pretty_name": "Mother's Race: Chinese",
+      "coef": -17.421873859066157,
+      "std_error": 31627.213926319066,
+      "p_value": 0.9995604847299608,
+      "odds_ratio": 2.7150405393259975e-08,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadChinese",
+      "pretty_name": "Father's Race: Chinese",
+      "coef": -17.540660597287403,
+      "std_error": 9832.996164949032,
+      "p_value": 0.9985766886695053,
+      "odds_ratio": 2.4109482784951354e-08,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racemomJapanese",
+      "pretty_name": "Mother's Race: Japanese",
+      "coef": -36.826886878306404,
+      "std_error": 32658.705068038693,
+      "p_value": 0.9991002828135922,
+      "odds_ratio": 1.0145798740338292e-16,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadJapanese",
+      "pretty_name": "Father's Race: Japanese",
+      "coef": 1.8679549533580495,
+      "std_error": 1.4879149619741927,
+      "p_value": 0.2093271248092301,
+      "odds_ratio": 6.475041089006972,
+      "ci_lower": 0.35051268846850386,
+      "ci_upper": 119.61380709929976
+    },
+    {
+      "name": "racemomHawaiian",
+      "pretty_name": "Mother's Race: Hawaiian",
+      "coef": -19.128252970948587,
+      "std_error": 31627.21392592595,
+      "p_value": 0.999517436571367,
+      "odds_ratio": 4.928392480398148e-09,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadHawaiian",
+      "pretty_name": "Father's Race: Hawaiian",
+      "coef": 0.8500687743992473,
+      "std_error": 1.3166184672078205,
+      "p_value": 0.5185089703761538,
+      "odds_ratio": 2.3398077652659786,
+      "ci_lower": 0.17719518367785633,
+      "ci_upper": 30.896440099365595
+    },
+    {
+      "name": "racemomFilipino",
+      "pretty_name": "Mother's Race: Filipino",
+      "coef": -18.596141048923016,
+      "std_error": 31627.21392100154,
+      "p_value": 0.9995308605742015,
+      "odds_ratio": 8.390707034486122e-09,
+      "ci_lower": 1.9287498479639178e-22,
+      "ci_upper": 5.184705528587072e+21
+    },
+    {
+      "name": "racedadFilipino",
+      "pretty_name": "Father's Race: Filipino",
+      "coef": 1.5698729383081647,
+      "std_error": 1.061702207722973,
+      "p_value": 0.13923716413213727,
+      "odds_ratio": 4.80603749172286,
+      "ci_lower": 0.5998573579206004,
+      "ci_upper": 38.50581486891272
+    },
+    {
+      "name": "hispmomCuban",
+      "pretty_name": "Mother Hispanic: Cuban",
+      "coef": 0.87190537927979,
+      "std_error": 0.3016939164838014,
+      "p_value": 0.0038520136841686536,
+      "odds_ratio": 2.391463159564839,
+      "ci_lower": 1.3239044708311742,
+      "ci_upper": 4.3198706323314084
+    },
+    {
+      "name": "hispdadCuban",
+      "pretty_name": "Father Hispanic: Cuban",
+      "coef": 0.5530622824683518,
+      "std_error": 0.3342393465597955,
+      "p_value": 0.09798753130700066,
+      "odds_ratio": 1.7385688633533025,
+      "ci_lower": 0.902987257654908,
+      "ci_upper": 3.347358079527564
+    },
+    {
+      "name": "hispmomMexican",
+      "pretty_name": "Mother Hispanic: Mexican",
+      "coef": -0.37103727892279603,
+      "std_error": 0.11503989456583105,
+      "p_value": 0.0012584413893821367,
+      "odds_ratio": 0.6900182179434431,
+      "ci_lower": 0.5507273211480428,
+      "ci_upper": 0.8645388067933826
+    },
+    {
+      "name": "hispdadMexican",
+      "pretty_name": "Father Hispanic: Mexican",
+      "coef": 0.13268386622634792,
+      "std_error": 0.1087395046438616,
+      "p_value": 0.22238933643829584,
+      "odds_ratio": 1.1418889516010073,
+      "ci_lower": 0.9227051316306248,
+      "ci_upper": 1.413138751579444
+    },
+    {
+      "name": "hispmomColombian",
+      "pretty_name": "Mother Hispanic: Colombian",
+      "coef": 0.0809094274081801,
+      "std_error": 0.4759147630419164,
+      "p_value": 0.8650036627614974,
+      "odds_ratio": 1.0842726867317911,
+      "ci_lower": 0.42661065011274096,
+      "ci_upper": 2.755785067442378
+    },
+    {
+      "name": "hispdadColombian",
+      "pretty_name": "Father Hispanic: Colombian",
+      "coef": 0.6637103897131695,
+      "std_error": 0.4487084186108402,
+      "p_value": 0.13909824500532775,
+      "odds_ratio": 1.9419845025989546,
+      "ci_lower": 0.805930224143855,
+      "ci_upper": 4.679442084878737
+    },
+    {
+      "name": "hispmomPeruvian",
+      "pretty_name": "Mother Hispanic: Peruvian",
+      "coef": 0.04637996498990333,
+      "std_error": 0.18102992870187185,
+      "p_value": 0.7977959938138222,
+      "odds_ratio": 1.0474723381693416,
+      "ci_lower": 0.7345929848465054,
+      "ci_upper": 1.493613908468251
+    },
+    {
+      "name": "hispdadPeruvian",
+      "pretty_name": "Father Hispanic: Peruvian",
+      "coef": 0.20842254764572243,
+      "std_error": 0.17618170134563207,
+      "p_value": 0.2368100585641253,
+      "odds_ratio": 1.231733525704935,
+      "ci_lower": 0.8720630200441579,
+      "ci_upper": 1.7397452288123472
+    },
+    {
+      "name": "hispmomSalvadoran",
+      "pretty_name": "Mother Hispanic: Salvadoran",
+      "coef": -0.015803279004746772,
+      "std_error": 0.13658709716173034,
+      "p_value": 0.9078894250503038,
+      "odds_ratio": 0.9843209376048364,
+      "ci_lower": 0.7531325861619332,
+      "ci_upper": 1.2864769444446014
+    },
+    {
+      "name": "hispdadSalvadoran",
+      "pretty_name": "Father Hispanic: Salvadoran",
+      "coef": -0.17490696850461973,
+      "std_error": 0.14231050932176878,
+      "p_value": 0.21905243559725518,
+      "odds_ratio": 0.8395351203439607,
+      "ci_lower": 0.6351871705339603,
+      "ci_upper": 1.1096244555733914
+    },
+    {
+      "name": "hispmomGuatemalan",
+      "pretty_name": "Mother Hispanic: Guatemalan",
+      "coef": -0.9652277719464033,
+      "std_error": 0.6189739036602201,
+      "p_value": 0.11890178729887912,
+      "odds_ratio": 0.3808964323363509,
+      "ci_lower": 0.1132206597635283,
+      "ci_upper": 1.2814100577542786
+    },
+    {
+      "name": "hispdadGuatemalan",
+      "pretty_name": "Father Hispanic: Guatemalan",
+      "coef": 1.4191537464034127,
+      "std_error": 0.3859163152690929,
+      "p_value": 0.00023565908328526675,
+      "odds_ratio": 4.133620868170896,
+      "ci_lower": 1.9401354078028286,
+      "ci_upper": 8.807025227753792
+    }
+  ],
+  "top_predictors": [
+    {
+      "name": "hispdadGuatemalan",
+      "pretty_name": "Father Hispanic: Guatemalan",
+      "coef": 1.4191537464034127,
+      "std_error": 0.3859163152690929,
+      "p_value": 0.00023565908328526675,
+      "odds_ratio": 4.133620868170896,
+      "ci_lower": 1.9401354078028286,
+      "ci_upper": 8.807025227753792
+    },
+    {
+      "name": "pinfant",
+      "pretty_name": "Previous Infant 4000g+",
+      "coef": -1.3228977798114359,
+      "std_error": 0.477992877567086,
+      "p_value": 0.005646901734255749,
+      "odds_ratio": 0.26636232318294784,
+      "ci_lower": 0.1043751331792651,
+      "ci_upper": 0.6797489502558227
+    },
+    {
+      "name": "eclamp",
+      "pretty_name": "Eclampsia",
+      "coef": 1.1694270487042955,
+      "std_error": 0.16717265215108557,
+      "p_value": 2.646327601496523e-12,
+      "odds_ratio": 3.2201471224174143,
+      "ci_lower": 2.320467445444405,
+      "ci_upper": 4.4686459662989435
+    },
+    {
+      "name": "hispmomCuban",
+      "pretty_name": "Mother Hispanic: Cuban",
+      "coef": 0.87190537927979,
+      "std_error": 0.3016939164838014,
+      "p_value": 0.0038520136841686536,
+      "odds_ratio": 2.391463159564839,
+      "ci_lower": 1.3239044708311742,
+      "ci_upper": 4.3198706323314084
+    },
+    {
+      "name": "uterine",
+      "pretty_name": "Uterine Bleeding",
+      "coef": 0.8024011446549499,
+      "std_error": 0.22466720760361705,
+      "p_value": 0.0003549291985636138,
+      "odds_ratio": 2.2308911950086356,
+      "ci_lower": 1.4362756625281576,
+      "ci_upper": 3.4651255701197874
+    },
+    {
+      "name": "preterm",
+      "pretty_name": "Preterm History",
+      "coef": 0.7771534451785841,
+      "std_error": 0.120363721784185,
+      "p_value": 1.0700484942560706e-10,
+      "odds_ratio": 2.175271414820817,
+      "ci_lower": 1.7181369763080088,
+      "ci_upper": 2.7540328817696627
+    },
+    {
+      "name": "renal",
+      "pretty_name": "Renal Disease",
+      "coef": 0.7665755859959398,
+      "std_error": 0.26442740950706,
+      "p_value": 0.0037435251998179098,
+      "odds_ratio": 2.1523829689070975,
+      "ci_lower": 1.2818416890106856,
+      "ci_upper": 3.614137755510862
+    },
+    {
+      "name": "cervix",
+      "pretty_name": "Cervical Incompetence",
+      "coef": 0.7432449832473506,
+      "std_error": 0.19432001067004118,
+      "p_value": 0.00013085148385538758,
+      "odds_ratio": 2.1027478370850026,
+      "ci_lower": 1.4367415863137012,
+      "ci_upper": 3.077483458740956
+    },
+    {
+      "name": "hyperch",
+      "pretty_name": "Chronic Hypertension",
+      "coef": 0.5214866463543838,
+      "std_error": 0.11371434397705577,
+      "p_value": 4.5195813527243445e-06,
+      "odds_ratio": 1.684530089632996,
+      "ci_lower": 1.3479791326756514,
+      "ci_upper": 2.105107975407909
+    },
+    {
+      "name": "hispmomMexican",
+      "pretty_name": "Mother Hispanic: Mexican",
+      "coef": -0.37103727892279603,
+      "std_error": 0.11503989456583105,
+      "p_value": 0.0012584413893821367,
+      "odds_ratio": 0.6900182179434431,
+      "ci_lower": 0.5507273211480428,
+      "ci_upper": 0.8645388067933826
+    }
+  ]
+}
