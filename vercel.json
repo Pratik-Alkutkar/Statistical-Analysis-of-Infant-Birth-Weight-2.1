@@ -2,6 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/predict.py": {
+      "runtime": "vercel-python@4.3.1",
       "memory": 256,
       "maxDuration": 10
     }
