@@ -1,3 +1,1 @@
-# Runtime deps for the Vercel Python function.
-# We deliberately keep this empty-ish: inference uses pure stdlib math + json,
-# so cold starts are near-instant and the bundle stays tiny.
+
